@@ -1,2 +1,2 @@
-.footer{margin:10px}.down{font-size:10px}
-body{display:-webkit-box;display:-ms-flexbox;display:flex;background:green}
+
+body{background-color:#f4f5fc;margin:0}.container{background-color:#fff;width:83.13vw;height:80vh;margin-top:10vh;margin-left:8.5vw}.left-indent{background-color:#5a61ed;width:17.15vw;height:80vh;float:left;position:relative}.left-indent .name-indent{width:200px;-webkit-transform:rotate(-90deg);-ms-transform:rotate(-90deg);transform:rotate(-90deg);-webkit-transform-origin:bottom right;-ms-transform-origin:bottom right;transform-origin:bottom right;position:absolute;right:0px;bottom:222px;font-family:"PT Sans",sans-serif;font-size:49px;font-weight:400;line-height:63px;letter-spacing:.5px;text-align:left;color:#fff}.main-form{margin-left:17.15vw}
