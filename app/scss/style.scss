@@ -9,6 +9,7 @@ body {
     height: 80vh;
     margin-top: 10vh;
     margin-left: 8.5vw;
+    margin-bottom: 9.833vh;
 }
 .left-indent {
     background-color:#5A61ED;
@@ -57,22 +58,6 @@ body {
         margin-bottom: 3.33vh;
 
     }
-    // .left-form {
-    //     padding-left: 2.6vw;
-    //     #name,
-    //     #nationality,
-    //     .date-of-birth{
-    //         margin-bottom: 2.8vh;
-    //     }
-    // }
-
-
-
-    // #name,
-    // #nationality,
-    // #date-of-birth{
-    //     margin-bottom: 2.8vh;
-    // }
     .quadr-cell {
         padding-left: 2.6vw;
         .duble-cell {
@@ -91,7 +76,7 @@ body {
         font-weight: 300;
         line-height: 100%;
         text-align: left;
-        vertical-align: bottom;
+        vertical-align: top;
         color: #7C7C7C;
         height: 14px;
     }
@@ -110,7 +95,7 @@ body {
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 27.2px;
+        height: 22px;
     }
     option {
         padding: 0;
@@ -174,6 +159,52 @@ body {
             vertical-align: 2px;
         }
     }
+    #confirm-password{
+        margin-bottom: 12vh;
+    }
+    .have-account {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        height: 15px;
+        float: left;
+        padding-top: 12px;
+        min-width: 270.5px;
+    }
+    .btn-signup {
+        float: right;
+        width: 154px;
+        height: 32px;
+        margin-right: 2.75vw;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color:#FFFFFF;
+        background: linear-gradient(0deg, #5A61ED, #5A61ED),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        border: 0.5px solid #FFFFFF;
+    }
+}
 
+@media only all and (max-width: 786px) {
+    .container,
+    .left-indent{
+        height: 120vh;
+    }
+    .have-account,
+    .btn-signup,
+    .duble-cell {
+        float: none;
+    }
+}
+
+@media only all and (max-width: 710px) {
+
+    .btn-signup {
+        margin-top: 15px;
+    }
 
 }
