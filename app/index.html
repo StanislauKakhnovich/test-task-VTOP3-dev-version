@@ -23,56 +23,97 @@
                 Use the form below to create your account.
             </div>
             <div class="form">
-                <div class="left-form">
-                    <label class="label-form" for="name">First Name</label>
-                    <div class="registration">
-                        <input class="input-form"  id="name" type="text" name="nameUser">
+                <div class="quadr-cell">
+                    <div class="duble-cell">
+                        <label class="label-form" for="name">First Name</label>
+                        <div class="registration">
+                            <input class="input-form"  id="name" type="text" name="nameUser">
+                        </div>
                     </div>
-                    <datalist id="nationality-list">
-                        <option value="American">
-                        <option value="Belarusian">
-                        <option value="Ukrainian">
-                        <option value="Russian">
-                    </datalist>
-                    <label class="label-form" for="nationality">Nationality</label>
-                    <div class="registration">
-                        <input class="input-form"  id="nationality" type="text" list="nationality-list" name="nationalityUser">
-                        <!-- <select class="input-form" name="nationalityUser">
-                            <option value="1">American</option>
-                            <option value="2">Belarusian</option>
-                            <option value="3">Ukrainian</option>
-                            <option value="4">Russian</option>
-                        </select> -->
-                    </div>
-                    <label class="label-form">Date of Birth</label>
-                    <div class="date-of-birth">
-                        <span>
-                            <select id="day" name="day"></select>
-                        </span>
-                        <span>
-                            <select id="month" name="month">
-                                <option selected>January</option>
-                                <option>February</option>
-                                <option>March</option>
-                                <option>April</option>
-                                <option>May</option>
-                                <option>June</option>
-                                <option>July</option>
-                                <option>August</option>
-                                <option>September</option>
-                                <option>October</option>
-                                <option>November</option>
-                                <option>December</option>
-                            </select>
-                        </span>
-                        <span>
-                            <select id="year" name="year"></select>
-                        </span>
+                    <div class="duble-cell">
+                        <label class="label-form" for="last-name">Last Name</label>
+                        <div class="registration">
+                            <input class="input-form"  id="last-name" type="text" name="lastNameUser">
+                        </div>
                     </div>
                 </div>
-                <div class="right-form">
+                <div class="quadr-cell">
+                    <div class="duble-cell">
+                        <datalist id="nationality-list">
+                            <option value="American">
+                            <option value="Belarusian">
+                            <option value="Ukrainian">
+                            <option value="Russian">
+                        </datalist>
+                        <label class="label-form" for="nationality">Nationality</label>
+                        <div class="registration">
+                            <input class="input-form"  id="nationality" type="text" list="nationality-list" name="nationalityUser">
+                            <!-- <select class="input-form" name="nationalityUser">
+                                <option value="1">American</option>
+                                <option value="2">Belarusian</option>
+                                <option value="3">Ukrainian</option>
+                                <option value="4">Russian</option>
+                            </select> -->
+                        </div>
+                    </div>
+                    <div class="duble-cell">
+                        <label class="label-form" for="email">E-mail</label>
+                        <div class="registration">
+                            <input class="input-form"  id="email" type="text" name="emailUser">
+                        </div>
+                    </div>
+                </div>
+                <div class="quadr-cell">
+                    <div class="duble-cell">
+                        <label class="label-form">Date of Birth</label>
+                        <div id="date-of-birth">
+                            <span>
+                                <select id="day" name="day"></select>
+                            </span>
+                            <span>
+                                <select id="month" name="month">
+                                    <option selected>January</option>
+                                    <option>February</option>
+                                    <option>March</option>
+                                    <option>April</option>
+                                    <option>May</option>
+                                    <option>June</option>
+                                    <option>July</option>
+                                    <option>August</option>
+                                    <option>September</option>
+                                    <option>October</option>
+                                    <option>November</option>
+                                    <option>December</option>
+                                </select>
+                            </span>
+                            <span>
+                                <select id="year" name="year"></select>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="duble-cell">
+                        <label class="label-form" for="gender">Gender</label>
+                        <div class="registration gender-block">
+                            <input class="input-radio left-radio"  type="radio" name="gender" value="1"><span class="gender-text">Male</span>
+                            <input class="input-radio right-radio"  type="radio" name="gender" value="2" checked><span class="gender-text">Female</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="quadr-cell">
+                    <div class="duble-cell">
+                        <label class="label-form" for="password">Password</label>
+                        <div class="registration">
+                            <input class="input-form"  id="password" type="text" name="passwordUser">
+                        </div>
+                    </div>
+                    <div class="duble-cell">
+                        <label class="label-form" for="confirm-password">Confirm Password</label>
+                        <div class="registration">
+                            <input class="input-form"  id="confirm-password" type="text" name="confirmPasswordUser">
+                        </div>
+                    </div>
+                </div>
 
-                </div>
             </div>
         </div>
     </div>

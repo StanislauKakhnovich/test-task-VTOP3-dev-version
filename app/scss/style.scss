@@ -57,15 +57,35 @@ body {
         margin-bottom: 3.33vh;
 
     }
-    .left-form {
+    // .left-form {
+    //     padding-left: 2.6vw;
+    //     #name,
+    //     #nationality,
+    //     .date-of-birth{
+    //         margin-bottom: 2.8vh;
+    //     }
+    // }
+
+
+
+    // #name,
+    // #nationality,
+    // #date-of-birth{
+    //     margin-bottom: 2.8vh;
+    // }
+    .quadr-cell {
         padding-left: 2.6vw;
-        #name,
-        #nationality{
+        .duble-cell {
+            margin-right: 1.887vw;
             margin-bottom: 2.8vh;
+            width: 29.31vw;
+            min-width: 234.5px;
+            float: left;
         }
     }
 
-    .label-form{
+
+    .label-form {
         font-family: 'Work Sans', sans-serif;
         font-size: 12px;
         font-weight: 300;
@@ -79,6 +99,7 @@ body {
     .input-form {
         outline: none;
         width: 29.31vw;
+        min-width: 234.5px;
         border: none;
         border-bottom: solid #F2F2F2 0.7px;
         padding: 0;
@@ -112,20 +133,47 @@ body {
         vertical-align: top;
         height: 27.2px;
     }
-    #day{
+    #day {
         width: 7vw;
         //margin-right: 1.239vw;
     }
-    #month{
+    #month {
         width: 11.375vw;
         //margin-right: 1.239vw;
     }
-    #year{
+    #year {
         width: 8.458vw;
     }
-    .date-of-birth{
+    .date-of-birth {
         width: 29.31vw;
+        min-width: 234.5px;
         display: flex;
         justify-content: space-between;
     }
+    .gender-block {
+        padding: 0;
+        margin: 0;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        height: 27.2px;
+        .input-radio {
+            margin-right: 6px;
+            margin-top: 7.7px;
+        }
+        .left-radio {
+            margin-left: 0;
+        }
+        .right-radio {
+            margin-left: 2.375vw;
+        }
+        .gender-text{
+            vertical-align: 2px;
+        }
+    }
+
+
 }
