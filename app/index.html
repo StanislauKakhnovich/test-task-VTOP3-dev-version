@@ -8,14 +8,73 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="left-indent">
             <div class="name-indent">Sign up</div>
         </div>
-        <div class="main-form"></div>
+        <div class="main-form">
+            <div class="table-contents">
+                New user?
+            </div>
+            <div class="instruction-form">
+                Use the form below to create your account.
+            </div>
+            <div class="form">
+                <div class="left-form">
+                    <label class="label-form" for="name">First Name</label>
+                    <div class="registration">
+                        <input class="input-form"  id="name" type="text" name="nameUser">
+                    </div>
+                    <datalist id="nationality-list">
+                        <option value="American">
+                        <option value="Belarusian">
+                        <option value="Ukrainian">
+                        <option value="Russian">
+                    </datalist>
+                    <label class="label-form" for="nationality">Nationality</label>
+                    <div class="registration">
+                        <input class="input-form"  id="nationality" type="text" list="nationality-list" name="nationalityUser">
+                        <!-- <select class="input-form" name="nationalityUser">
+                            <option value="1">American</option>
+                            <option value="2">Belarusian</option>
+                            <option value="3">Ukrainian</option>
+                            <option value="4">Russian</option>
+                        </select> -->
+                    </div>
+                    <label class="label-form">Date of Birth</label>
+                    <div class="date-of-birth">
+                        <span>
+                            <select id="day" name="day"></select>
+                        </span>
+                        <span>
+                            <select id="month" name="month">
+                                <option selected>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                        </span>
+                        <span>
+                            <select id="year" name="year"></select>
+                        </span>
+                    </div>
+                </div>
+                <div class="right-form">
+
+                </div>
+            </div>
+        </div>
     </div>
     <script src="js/main.min.js"></script>
 </body>
