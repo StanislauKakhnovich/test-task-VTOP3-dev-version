@@ -120,20 +120,24 @@ body {
     }
     #day {
         width: 7vw;
-        //margin-right: 1.239vw;
+        min-width: 56px;
+        margin-right: 1.225vw;
+        float: left;
     }
     #month {
         width: 11.375vw;
-        //margin-right: 1.239vw;
+        min-width: 91px;
+        margin-right: 1.225vw;
+        float: left;
     }
     #year {
-        width: 8.458vw;
+        //width: 8.458vw;
+        min-width: 67,67px;
+        float: left;
     }
     .date-of-birth {
         width: 29.31vw;
         min-width: 234.5px;
-        display: flex;
-        justify-content: space-between;
     }
     .gender-block {
         padding: 0;
@@ -172,14 +176,14 @@ body {
         height: 15px;
         float: left;
         padding-top: 12px;
-        min-width: 270.5px;
+        min-width: 200.5px;
     }
     .btn-signup {
         float: right;
         width: 154px;
         height: 32px;
         margin-right: 2.75vw;
-        font-family: 'Work Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif;
         font-size: 14px;
         font-weight: 400;
         color:#FFFFFF;
@@ -192,13 +196,29 @@ body {
 @media only all and (max-width: 786px) {
     .container,
     .left-indent{
-        height: 120vh;
+        height: 135vh;
     }
     .have-account,
     .btn-signup,
     .duble-cell {
         float: none;
     }
+    #day {
+        width: 56px;
+        margin-right: 9.8px;
+        float: left;
+    }
+    #month {
+        width: 91px;
+        margin-right: 9.8px;
+    }
+    #year {
+        width: auto;
+    }
+    #date-of-birth {
+        width: 234.5px;
+    }
+
 }
 
 @media only all and (max-width: 710px) {
@@ -208,3 +228,27 @@ body {
     }
 
 }
+
+@media only all and (max-width: 400px) {
+    .left-indent {
+        background-color:#5A61ED;
+        width: 83.13vw;
+        height: 100px;
+        float: none;
+        .name-indent { 
+            transform: none;
+            bottom: 0px;
+        }
+    }
+    .main-form {
+        margin-left: 10px;
+    }
+    .input-form {
+        min-width: 200px;
+    }
+    #date-of-birth {
+        width: 230px;
+    }
+}
+
+
