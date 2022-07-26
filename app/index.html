@@ -26,12 +26,14 @@
                 <div class="quadr-cell">
                     <div class="duble-cell">
                         <label class="label-form" for="name">First Name</label>
+                        <span class="error" id="errorEmptyName">The field cannot be empty.</span>
                         <div class="registration">
                             <input class="input-form"  id="name" type="text" name="nameUser">
                         </div>
                     </div>
                     <div class="duble-cell">
                         <label class="label-form" for="last-name">Last Name</label>
+                        <span class="error" id="errorEmptyLastName">The field cannot be empty.</span>
                         <div class="registration">
                             <input class="input-form"  id="last-name" type="text" name="lastNameUser">
                         </div>
@@ -50,7 +52,8 @@
                         </div>
                     </div>
                     <div class="duble-cell">
-                        <label class="label-form" for="email">E-mail</label>
+                        <label class="label-form error-underline" for="email">E-mail</label>
+                        <span class="error" id="errorValidEmail">Please enter a valid e-mail.</span>
                         <div class="registration">
                             <input class="input-form"  id="email" type="text" name="emailUser">
                         </div>
@@ -111,10 +114,11 @@
                         Have an account?
                         <a href="#">Login</a>
                     </div>
-                    <br>
-                    <button class="btn-signup">
-                        Complete Signup
-                    </button>
+                    <div class="btn-container">
+                        <button class="btn-signup">
+                            Complete Signup
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

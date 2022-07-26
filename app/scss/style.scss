@@ -6,29 +6,29 @@ body {
 .container {
     background-color: #FFFFFF;;
     width: 83.13vw;
-    height: 80vh;
-    margin-top: 10vh;
+    height: 60vw; //80vh;
+    margin-top: 7.5vw; //10vh;
     margin-left: 8.5vw;
-    margin-bottom: 9.833vh;
+    margin-bottom: 7.374vw; // 9.833vh;
 }
 .left-indent {
     background-color:#5A61ED;
     width: 17.15vw;
-    height: 80vh;
+    height: 60vw; //80vh;
     float: left;
     position: relative;
     .name-indent { 
-        width: 200px;
+        width: 25vw; //200px;
         transform: rotate(-90deg);
         transform-origin: bottom right;
         position: absolute;
         right: 0px;
-        bottom: 222px;
+        bottom: 27.75vw;//222px;
         font-family: 'PT Sans', sans-serif;
-        font-size: 49px;
+        font-size: 6.125vw; //49px;
         font-weight: 400;
-        line-height: 63px;
-        letter-spacing: 0.5px;
+        line-height: 7.875vw;//63px;
+        letter-spacing: 0.063vw;//0.5px;
         text-align: left;
         color: #FFFFFF;
     }
@@ -37,32 +37,32 @@ body {
     margin-left: 17.15vw;
     .table-contents {
         font-family: 'Work Sans', sans-serif;
-        font-size: 22px;
+        font-size: 2.75vw;//22px;
         font-weight: 500;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        padding-top: 6.42vh;
+        padding-top: 4.815vw; //6.42vh;
         padding-left: 2.6vw;
-        height: 26px;
+        height: 3.25vw//26px;
     }
     .instruction-form {
         font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
+        font-size: 1.75vw;//14px;
         font-weight: 300;
         line-height: 100%;
         text-align: left;
         vertical-align: bottom;
         padding-left: 2.6vw;
-        height: 16px;
-        margin-bottom: 3.33vh;
+        height: 2vw;//16px;
+        margin-bottom: 2.498vw; //3.33vh;
 
     }
     .quadr-cell {
         padding-left: 2.6vw;
         .duble-cell {
             margin-right: 1.887vw;
-            margin-bottom: 2.8vh;
+            margin-bottom: 2.1vw; //2.8vh;
             width: 29.31vw;
             min-width: 234.5px;
             float: left;
@@ -72,13 +72,13 @@ body {
 
     .label-form {
         font-family: 'Work Sans', sans-serif;
-        font-size: 12px;
+        font-size: 1.5vw;//12px;
         font-weight: 300;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
         color: #7C7C7C;
-        height: 14px;
+        height: 1.75vw;//14px;
     }
 
     .input-form {
@@ -90,18 +90,19 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
+        font-size: 1.75vw;//14px;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 22px;
+        height: 2.75vw;//22px;
+        option {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
     }
-    option {
-        padding: 0;
-        margin: 0;
-        text-align: left;
-    }
+
     #day,
     #month,
     #year {
@@ -111,12 +112,12 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
+        font-size: 1.75vw;//14px;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 27.2px;
+        height: 3.4vw;//27.2px;
     }
     #day {
         width: 7vw;
@@ -131,7 +132,7 @@ body {
         float: left;
     }
     #year {
-        //width: 8.458vw;
+        width: 8.458vw;
         min-width: 67,67px;
         float: left;
     }
@@ -143,16 +144,23 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 14px;
+        font-size: 1.75vw;//14px;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 27.2px;
+        height: 3.4vw;//27.2px;
         .input-radio {
-            margin-right: 6px;
-            margin-top: 7.7px;
+            margin-right: 0.75vw;//6px;
+            margin-top: 0.963vw;//7.7px;
+            font-size: 1.75vw;//14px;
+
         }
+        input[type="radio"] {    
+            width: 1.5vw;//12px;    
+            height: 1.5vw;//12px;
+        }
+        
         .left-radio {
             margin-left: 0;
         }
@@ -160,76 +168,184 @@ body {
             margin-left: 2.375vw;
         }
         .gender-text{
-            vertical-align: 2px;
+            vertical-align: 0.25vw;//2px;
         }
     }
     #confirm-password{
-        margin-bottom: 12vh;
+        margin-bottom: 9vw; //12vh;
     }
     .have-account {
         font-family: 'Work Sans', sans-serif;
-        font-size: 13px;
+        font-size: 1.625vw;//13px;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 15px;
-        float: left;
-        padding-top: 12px;
+        height: 1.875vw;//15px;
+        //float: left;
+        padding-top: 1.6vw;//12px;
         min-width: 200.5px;
     }
     .btn-signup {
         float: right;
-        width: 154px;
-        height: 32px;
+        width: 19.25vw;//154px;
+        height: 4vw;//32px;
         margin-right: 2.75vw;
         font-family: 'PT Sans', sans-serif;
-        font-size: 14px;
+        font-size: 1.75vw;//14px;
         font-weight: 400;
         color:#FFFFFF;
         background: linear-gradient(0deg, #5A61ED, #5A61ED),
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
         border: 0.5px solid #FFFFFF;
     }
+    .error {
+        //display: none;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.5vw;//12px;
+        font-weight: 300;
+        line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        color: #7C7C7C;
+        height: 1.75vw;//14px;
+    }
+    .error-underline {
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+}
+
+@media only all and (max-width: 800px) {
+    .container {
+        height: 80vh;
+        margin-top: 10vh;
+        margin-bottom: 9.833vh;
+    }
+    .left-indent {
+        height: 80vh;
+        .name-indent { 
+            width: 200px;
+            bottom: 222px;
+            font-size: 49px;
+            line-height: 63px;
+            letter-spacing: 0.5px;
+        }
+    }
+   
+    .main-form {
+        .table-contents {
+            font-size: 22px;
+            padding-top: 6.42vh;
+            height: 26px;
+        }
+        .instruction-form {
+            font-size: 14px;
+            height: 16px;
+            margin-bottom: 3.33vh;
+        }
+        .quadr-cell {
+            .duble-cell {
+                margin-bottom: 2.8vh;
+            }
+        }
+        .label-form {
+            font-size: 12px;
+            height: 14px;
+        }
+        .input-form {
+            font-size: 14px;
+            height: 22px;
+        }
+        #day,
+        #month,
+        #year {
+            font-size: 14px;
+            height: 27.2px;
+        }
+        .gender-block {
+            font-size: 14px;
+            height: 27.2px;
+            .input-radio {
+                margin-right: 6px;
+                margin-top: 7.7px;
+                font-size: 14px;
+            }
+            input[type="radio"] {    
+                width: 12px;    
+                height: 12px;
+            }
+            .gender-text{
+                vertical-align: 2px;
+            }
+        }
+        #confirm-password{
+            margin-bottom: 12vh;
+        }
+        .have-account {
+            font-size: 13px;
+            height: 15px;
+            padding-top: 12px;
+        }
+        .btn-signup {
+            width: 154px;
+            height: 32px;
+            font-size: 14px;
+        }
+        .error {
+            //display: none;
+            font-size: 12px;
+            height: 14px;
+        }
+    }
 }
 
 @media only all and (max-width: 786px) {
     .container,
     .left-indent{
-        height: 135vh;
+        height: 120vh;
     }
-    .have-account,
-    .btn-signup,
-    .duble-cell {
-        float: none;
+    .main-form {
+        .have-account,
+        .btn-signup,
+        .duble-cell {
+            float: none;
+        }
+        #day {
+            width: 56px;
+            margin-right: 9.8px;
+            // float: left;
+        }
+        #month {
+            width: 91px;
+            margin-right: 9.8px;
+        }
+        #year {
+            width: 67.67px;
+        }
+        .have-account,
+        .btn-container,
+        #date-of-birth {
+            width: 234.5px;
+        }
+        .btn-signup {
+            margin-top: 30px;
+        }
+        
     }
-    #day {
-        width: 56px;
-        margin-right: 9.8px;
-        float: left;
-    }
-    #month {
-        width: 91px;
-        margin-right: 9.8px;
-    }
-    #year {
-        width: auto;
-    }
-    #date-of-birth {
-        width: 234.5px;
-    }
-
 }
 
 @media only all and (max-width: 710px) {
-
     .btn-signup {
         margin-top: 15px;
     }
-
 }
 
 @media only all and (max-width: 400px) {
+    .container,
+    .left-indent{
+        height: 135vh;
+    }
     .left-indent {
         background-color:#5A61ED;
         width: 83.13vw;
