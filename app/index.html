@@ -25,14 +25,14 @@
             <div class="form">
                 <div class="quadr-cell">
                     <div class="duble-cell">
-                        <label class="label-form" for="name">First Name</label>
+                        <label class="label-form  error-underline" for="name">First Name</label>
                         <span class="error" id="errorEmptyName">The field cannot be empty.</span>
                         <div class="registration">
                             <input class="input-form"  id="name" type="text" name="nameUser">
                         </div>
                     </div>
                     <div class="duble-cell">
-                        <label class="label-form" for="last-name">Last Name</label>
+                        <label class="label-form  error-underline" for="last-name">Last Name</label>
                         <span class="error" id="errorEmptyLastName">The field cannot be empty.</span>
                         <div class="registration">
                             <input class="input-form"  id="last-name" type="text" name="lastNameUser">
@@ -97,13 +97,17 @@
                 </div>
                 <div class="quadr-cell">
                     <div class="duble-cell">
-                        <label class="label-form" for="password">Password</label>
+                        <label class="label-form error-underline" for="password">Password</label>
+                        <span class="error" id="errorValidPassword">
+                            At least 8 characters, uppercase and lowercase letters, and numbers.
+                        </span>
                         <div class="registration">
                             <input class="input-form"  id="password" type="text" name="passwordUser">
                         </div>
                     </div>
                     <div class="duble-cell">
-                        <label class="label-form" for="confirm-password">Confirm Password</label>
+                        <label class="label-form error-underline" id="label-confirm" for="confirm-password">Confirm Password</label>
+                        <span class="error" id="errorConfirmPassword">Do not match.</span>
                         <div class="registration">
                             <input class="input-form"  id="confirm-password" type="text" name="confirmPasswordUser">
                         </div>

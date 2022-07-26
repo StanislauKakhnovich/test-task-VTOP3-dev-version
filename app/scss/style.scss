@@ -6,29 +6,29 @@ body {
 .container {
     background-color: #FFFFFF;;
     width: 83.13vw;
-    height: 60vw; //80vh;
-    margin-top: 7.5vw; //10vh;
+    height: 60vw;
+    margin-top: 7.5vw;
     margin-left: 8.5vw;
-    margin-bottom: 7.374vw; // 9.833vh;
+    margin-bottom: 7.374vw;
 }
 .left-indent {
     background-color:#5A61ED;
     width: 17.15vw;
-    height: 60vw; //80vh;
+    height: 60vw;
     float: left;
     position: relative;
     .name-indent { 
-        width: 25vw; //200px;
+        width: 25vw;
         transform: rotate(-90deg);
         transform-origin: bottom right;
         position: absolute;
         right: 0px;
-        bottom: 27.75vw;//222px;
+        bottom: 27.75vw;
         font-family: 'PT Sans', sans-serif;
-        font-size: 6.125vw; //49px;
+        font-size: 6.125vw;
         font-weight: 400;
-        line-height: 7.875vw;//63px;
-        letter-spacing: 0.063vw;//0.5px;
+        line-height: 7.875vw;
+        letter-spacing: 0.063vw;
         text-align: left;
         color: #FFFFFF;
     }
@@ -37,48 +37,49 @@ body {
     margin-left: 17.15vw;
     .table-contents {
         font-family: 'Work Sans', sans-serif;
-        font-size: 2.75vw;//22px;
+        font-size: 2.75vw;
         font-weight: 500;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        padding-top: 4.815vw; //6.42vh;
+        padding-top: 4.815vw;
         padding-left: 2.6vw;
-        height: 3.25vw//26px;
+        height: 3.25vw;
     }
     .instruction-form {
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.75vw;//14px;
+        font-size: 1.75vw;
         font-weight: 300;
         line-height: 100%;
         text-align: left;
         vertical-align: bottom;
         padding-left: 2.6vw;
-        height: 2vw;//16px;
-        margin-bottom: 2.498vw; //3.33vh;
+        height: 2vw;
+        margin-bottom: 2.498vw;
 
     }
     .quadr-cell {
         padding-left: 2.6vw;
         .duble-cell {
             margin-right: 1.887vw;
-            margin-bottom: 2.1vw; //2.8vh;
+            margin-bottom: 2.1vw;
             width: 29.31vw;
             min-width: 234.5px;
             float: left;
+            position: relative;
         }
     }
 
 
     .label-form {
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.5vw;//12px;
+        font-size: 1.5vw;
         font-weight: 300;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
         color: #7C7C7C;
-        height: 1.75vw;//14px;
+        height: 1.75vw;
     }
 
     .input-form {
@@ -90,12 +91,12 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.75vw;//14px;
+        font-size: 1.75vw;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 2.75vw;//22px;
+        height: 2.75vw;
         option {
             padding: 0;
             margin: 0;
@@ -112,12 +113,12 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.75vw;//14px;
+        font-size: 1.75vw;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 3.4vw;//27.2px;
+        height: 3.4vw;
     }
     #day {
         width: 7vw;
@@ -144,21 +145,21 @@ body {
         padding: 0;
         margin: 0;
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.75vw;//14px;
+        font-size: 1.75vw;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 3.4vw;//27.2px;
+        height: 3.4vw;
         .input-radio {
-            margin-right: 0.75vw;//6px;
-            margin-top: 0.963vw;//7.7px;
-            font-size: 1.75vw;//14px;
+            margin-right: 0.75vw;
+            margin-top: 0.963vw;
+            font-size: 1.75vw;
 
         }
         input[type="radio"] {    
-            width: 1.5vw;//12px;    
-            height: 1.5vw;//12px;
+            width: 1.5vw; 
+            height: 1.5vw;
         }
         
         .left-radio {
@@ -168,31 +169,31 @@ body {
             margin-left: 2.375vw;
         }
         .gender-text{
-            vertical-align: 0.25vw;//2px;
+            vertical-align: 0.25vw;
         }
     }
     #confirm-password{
-        margin-bottom: 9vw; //12vh;
+        margin-bottom: 10vw;
     }
     .have-account {
+        float: left;
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.625vw;//13px;
+        font-size: 1.625vw;
         font-weight: 400;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
-        height: 1.875vw;//15px;
-        //float: left;
-        padding-top: 1.6vw;//12px;
+        height: 1.875vw;
+        padding-top: 1.6vw;
         min-width: 200.5px;
     }
     .btn-signup {
         float: right;
-        width: 19.25vw;//154px;
-        height: 4vw;//32px;
+        width: 19.25vw;
+        height: 4vw;
         margin-right: 2.75vw;
         font-family: 'PT Sans', sans-serif;
-        font-size: 1.75vw;//14px;
+        font-size: 1.75vw;
         font-weight: 400;
         color:#FFFFFF;
         background: linear-gradient(0deg, #5A61ED, #5A61ED),
@@ -202,17 +203,23 @@ body {
     .error {
         //display: none;
         font-family: 'Work Sans', sans-serif;
-        font-size: 1.5vw;//12px;
+        font-size: 1.5vw;
         font-weight: 300;
         line-height: 100%;
         text-align: left;
         vertical-align: top;
         color: #7C7C7C;
-        height: 1.75vw;//14px;
+        height: 1.75vw;
     }
     .error-underline {
         text-decoration: underline;
         text-decoration-color: red;
+    }
+    #errorValidPassword {
+        font-size: 1.15vw;
+        position: absolute;
+        left: 8vw;
+        top: -0.4vw;
     }
 }
 
@@ -293,9 +300,13 @@ body {
             font-size: 14px;
         }
         .error {
-            //display: none;
             font-size: 12px;
             height: 14px;
+        }
+        #errorValidPassword {
+            font-size: 10px;
+            left: 60px;
+            top: -3px;
         }
     }
 }
@@ -314,7 +325,6 @@ body {
         #day {
             width: 56px;
             margin-right: 9.8px;
-            // float: left;
         }
         #month {
             width: 91px;
