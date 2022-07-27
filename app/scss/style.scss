@@ -35,6 +35,7 @@ body {
 }
 .main-form {
     margin-left: 17.15vw;
+    position: relative;
     .table-contents {
         font-family: 'Work Sans', sans-serif;
         font-size: 2.75vw;
@@ -187,11 +188,14 @@ body {
         padding-top: 1.6vw;
         min-width: 200.5px;
     }
-    .btn-signup {
+    .btn-container{
         float: right;
+    }
+    .btn-signup {
+        
         width: 19.25vw;
         height: 4vw;
-        margin-right: 2.75vw;
+        // margin-right: 2.75vw;
         font-family: 'PT Sans', sans-serif;
         font-size: 1.75vw;
         font-weight: 400;
@@ -199,6 +203,9 @@ body {
         background: linear-gradient(0deg, #5A61ED, #5A61ED),
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
         border: 0.5px solid #FFFFFF;
+        position: absolute;
+        right: 2.75vw;//22px;
+        //left: -289px;//30.375vw;
     }
     .error {
         display: none;
@@ -321,10 +328,15 @@ body {
             height: 15px;
             padding-top: 12px;
         }
+        .btn-container { 
+            
+            
+        }
         .btn-signup {
             width: 154px;
             height: 32px;
             font-size: 14px;
+            right: 22px;
         }
         .error {
             font-size: 12px;
@@ -360,7 +372,7 @@ body {
     }
     .main-form {
         .have-account,
-        .btn-signup,
+        // .btn-container,
         .duble-cell {
             float: none;
         }
@@ -380,8 +392,13 @@ body {
         #date-of-birth {
             width: 234.5px;
         }
+        .btn-container {
+            //bottom: -124px;
+            float: none;
+        }
         .btn-signup {
             margin-top: 30px;
+            bottom: -93vh;
         }
         
     }
