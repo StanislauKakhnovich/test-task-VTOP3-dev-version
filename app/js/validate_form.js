@@ -1,9 +1,9 @@
-let nameUser = document.querySelector('#name');
-let lastNameUser = document.querySelector('#last-name');
-let emailUser = document.querySelector('#email');
-let passwordUser = document.querySelector('#password');
-let confirmPasswordUser = document.querySelector('#confirm-password');
-let buttonUp = document.querySelector('.btn-signup');
+var nameUser = document.querySelector('#name');
+var lastNameUser = document.querySelector('#last-name');
+var emailUser = document.querySelector('#email');
+var passwordUser = document.querySelector('#password');
+var confirmPasswordUser = document.querySelector('#confirm-password');
+var buttonUp = document.querySelector('.btn-signup');
 
 
 let emptyFieldName = function(){
@@ -29,17 +29,6 @@ let emptyFieldLastName = function(){
         return true;
        }  
 };
-
-// let emptyField = function(fieldInput){
-//     this = fieldInput;
-//     if(this.value.trim() == '') {
-//         this.previousElementSibling.style.display = 'inline-block';
-//         this.style.borderBottomColor = 'red';
-//        } else {
-//         this.previousElementSibling.style.display = 'none';
-//         this.style.borderBottomColor = '#F2F2F2';
-//        }  
-// };
 
 
 nameUser.addEventListener('input', emptyFieldName);
@@ -114,11 +103,13 @@ let arrValidateFunction = [emptyFieldName, emptyFieldLastName, validateEmailUser
 
 let submitForm = () =>{
     let copy = [...arrValidateFunction];
-    copy = copy.filter(func=>func());
-    console.log(copy);
-
-    if(copy.length!=5) console.log('Not ok');
-    else console.log('Ok');
+    if(copy.filter(func=>func()).length!=5) {
+        console.log('Not ok validate form');
+    } 
+    else {
+        console.log('Ok validate form');
+        postForm();
+    } 
 }
 
 buttonUp.addEventListener('click', submitForm);

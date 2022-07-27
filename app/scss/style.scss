@@ -223,6 +223,33 @@ body {
     }
 }
 
+#success-request {
+    display: none;
+    margin-left: 7.975vw;
+    .thank {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2.75vw;
+        font-weight: 500;
+        line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        letter-spacing: -0.0575vw;
+        height: 3.25vw;
+        margin-top: 27.065vw;
+        margin-bottom: 1.375vw;
+    }
+    .registr {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.75vw;
+        font-weight: 300;
+        line-height: 100%;
+        text-align: left;
+        vertical-align: top;
+        height: 2vw;
+        margin-bottom: 19vw;
+    }
+}
+
 @media only all and (max-width: 800px) {
     .container {
         height: 80vh;
@@ -307,6 +334,21 @@ body {
             font-size: 10px;
             left: 60px;
             top: -3px;
+        }
+    }
+    #success-request {
+        margin-left: 63.8px;
+        .thank {
+            font-size: 22px;
+            letter-spacing: -0.46px;
+            height: 26px;
+            margin-top: 216.52px;
+            margin-bottom: 11px;
+        }
+        .registr {
+            font-size: 14px;
+            height: 16px;
+            margin-bottom: 152px;
         }
     }
 }
