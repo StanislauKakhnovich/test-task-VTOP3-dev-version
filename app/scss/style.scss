@@ -11,7 +11,7 @@ body {
     margin-top: 7.5vw;
     margin-left: 8.5vw;
     margin-bottom: 7.374vw;
-    background: url('../images/svg_8_animated.svg'); // no-repeat right; 
+    background: url('../images/svg_8_animated.svg');
     background-size: cover;
     background-color: white;
     
@@ -79,10 +79,6 @@ body {
             position: relative;
         }
     }
-    // #name-block {
-    //     opacity: 0.5;
-    // }
-
 
     .label-form {
         font-family: 'Work Sans', sans-serif;
@@ -208,7 +204,6 @@ body {
         
         width: 19.25vw;
         height: 4vw;
-        // margin-right: 2.75vw;
         font-family: 'PT Sans', sans-serif;
         font-size: 1.75vw;
         font-weight: 400;
@@ -217,8 +212,7 @@ body {
         linear-gradient(0deg, #FFFFFF, #FFFFFF);
         border: 0.5px solid #FFFFFF;
         position: absolute;
-        right: 2.75vw;//22px;
-        //left: -289px;//30.375vw;
+        right: 2.75vw;
         opacity: 0;
     }
     .error {
@@ -383,7 +377,6 @@ body {
     }
     .main-form {
         .have-account,
-        // .btn-container,
         .duble-cell {
             float: none;
         }
@@ -404,7 +397,6 @@ body {
             width: 234.5px;
         }
         .btn-container {
-            //bottom: -124px;
             float: none;
         }
         .btn-signup {
