@@ -2,14 +2,19 @@
 body {
     background-color: #F4F5FC;
     margin: 0;
+
 }
 .container {
-    background-color: #FFFFFF;;
+    
     width: 83.13vw;
     height: 60vw;
     margin-top: 7.5vw;
     margin-left: 8.5vw;
     margin-bottom: 7.374vw;
+    background: url('../images/svg_8_animated.svg'); // no-repeat right; 
+    background-size: cover;
+    background-color: white;
+    
 }
 .left-indent {
     background-color:#5A61ED;

@@ -4,7 +4,6 @@ function animationText() {
     let textHaveAccount = document.querySelector('.have-account');
     let buttonUp = document.querySelector('.btn-signup');
     arrDoubleCells = [...arrDoubleCells, textHaveAccount, buttonUp];
-    console.log(arrDoubleCells);
     let i = 0;
     let id = setInterval(flow, 1000);
     function animationOpacity(elem) {
