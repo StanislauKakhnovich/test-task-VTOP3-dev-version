@@ -17,8 +17,10 @@ postForm=()=> {
   
   
     readReady = (callresult)=> {
-      if ( callresult.error!=undefined )
+      if ( callresult.error!=undefined ) {
+          shaking();
           console.log(callresult.error);
+      }
       else if ( callresult.result!="" ) {
         nameUser.value = "";
         lastNameUser.value = "";
@@ -35,6 +37,8 @@ postForm=()=> {
     };
   
   errorHandler = (jqXHR,statusStr,errorStr) => {
+      shaking();
       console.log(statusStr+' '+errorStr);
+      
     }
 

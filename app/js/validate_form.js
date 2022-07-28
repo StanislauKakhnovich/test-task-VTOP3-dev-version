@@ -105,6 +105,7 @@ let submitForm = () =>{
     let copy = [...arrValidateFunction];
     if(copy.filter(func=>func()).length!=5) {
         console.log('Not ok validate form');
+        shaking();
     } 
     else {
         console.log('Ok validate form');
